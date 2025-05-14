@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" src="styles.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
     <title>AI Joke Generator</title>
   </head>
   <body>
@@ -15,9 +17,9 @@
       <form id="joke-generator">
         <label for="prompt">Enter a topic</label>
         <input
-          id="prompt"
+          id="topic"
           type="text"
-          name="prompt"
+          name="topic"
           placeholder="e.g.AI"
           autofocus
           required

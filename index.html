@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" src="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
@@ -11,31 +17,46 @@
   </head>
   <body>
     <header>
-      <h1>AI Joke Generator</h1>
+      <h1 class="title">AI Joke Generator</h1>
     </header>
     <main>
-      <form id="joke-generator">
-        <label for="prompt">Enter a topic</label>
-        <input
-          id="topic"
-          type="text"
-          name="topic"
-          placeholder="e.g.AI"
-          autofocus
-          required
-        />
-        <input
-          id="submit-btn"
-          type="submit"
-          name="sumbit"
-          value="Tell me a joke"
-        />
-      </form>
-      <div id="joke-text"></div>
+      <div class="container">
+        <form id="joke-generator">
+          <label for="prompt">Enter a topic</label>
+          <input
+            class="user-input"
+            id="topic"
+            type="text"
+            name="topic"
+            placeholder="e.g.AI"
+            autofocus
+            required
+          />
+          <input
+            class="submit-btn"
+            id="submit-btn"
+            type="submit"
+            name="sumbit"
+            value="Tell me a joke"
+          />
+        </form>
+        <p class="joke-text" id="joke-text"></p>
+      </div>
     </main>
     <footer>
-      This AI project was coded by <a href="#">Hanna Velychko></a> and is
-      <a href="#">opensourced </a>
+      This AI project was coded by
+      <a
+        href="https://www.linkedin.com/in/hanna-velychko-1b6655264/"
+        target="_blank"
+        >Hanna Velychko</a
+      >
+      <br />
+      and is opensourced on
+      <a
+        href="https://github.com/HannaVelychko2313/ai-joke-generator"
+        target="_blank"
+        >Github</a
+      >
     </footer>
     <script src="script.js"></script>
   </body>

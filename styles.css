@@ -1,0 +1,94 @@
+body {
+  background-color: #ffcbcb;
+  color: #ffb5b5;
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.3rem;
+  font-style: normal;
+  padding: 10px;
+}
+a {
+  color: inherit;
+}
+header {
+  margin: 40px;
+}
+.title {
+  color: #407088;
+  text-align: center;
+  line-height: 1.4;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.container {
+  background-color: #132743;
+  margin: 60px auto;
+  max-width: 580px;
+  padding: 10px;
+  border: 2px solid rgba(136, 93, 241, 0.4);
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+label {
+  font-size: 1.3rem;
+}
+.user-input {
+  padding: 5px;
+  font-size: 1.2rem;
+  font-family: inherit;
+  color: #132743;
+  border: 1px solid #ffb5b5;
+  border-radius: 5px;
+  width: 50%;
+}
+.submit-btn {
+  padding: 5px 8px;
+  font-family: inherit;
+  font-size: 1.2rem;
+  color: #132743;
+  border-radius: 3px;
+  background-color: #fff;
+  border: none;
+  border: 1px solid #ffcbcb;
+  box-shadow: 3px 3px#9e8282;
+}
+.submit-btn:hover {
+  background-color: #ffb5b5;
+}
+.joke-text {
+  padding: 12px;
+  line-height: 22px;
+}
+footer {
+  margin-top: 50px;
+  color: #132743;
+  text-align: center;
+}
+@media (max-width: 420px) {
+  .title {
+    font-size: 1.7rem;
+  }
+  form {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .user-input {
+    margin-top: 30px;
+    width: 90%;
+  }
+  .submit-btn {
+    margin-top: 35px;
+  }
+  .joke-text {
+    text-align: center;
+  }
+}

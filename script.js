@@ -3,7 +3,7 @@ function displayJoke(response) {
     strings: response.data.answer,
     autoStart: true,
     delay: 1,
-    cursor: "😂",
+    cursor: " 😂",
   });
 }
 function generateJoke(e) {

@@ -59,7 +59,7 @@ label {
   background-color: #fff;
   border: none;
   border: 1px solid #ffcbcb;
-  box-shadow: 3px 3px#9e8282;
+  box-shadow: 2px 2px rgba(254, 232, 232, 0.3);
 }
 .submit-btn:hover {
   background-color: #ffb5b5;
@@ -67,6 +67,9 @@ label {
 .joke-text {
   padding: 12px;
   line-height: 22px;
+}
+.hidden {
+  display: none;
 }
 footer {
   margin-top: 50px;
